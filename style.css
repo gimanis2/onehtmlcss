@@ -1,3 +1,15 @@
+/* 요소 선택자(태그 선택자) */
 form {
   border: 2px dotted gray;
+}
+
+/* ID 선택자 */
+#box1 {
+  background-color: brown !important;
+}
+
+/* class 선택자 */
+.error {
+  background-color: #ff0000;
+  background-color: rgba(255, 0, 43, 0.3);
 }
