@@ -12,9 +12,19 @@
       }
     </style>
     <!-- 외부스타일 css -->
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
+    <div class="parent">
+      부모입니다.
+      <div class="children">
+        자식입니다.
+        <p class="children_children">자손입니다.</p>
+      </div>
+      <div class="children"></div>
+    </div>
+    <div class="parent2">부모입니다.2</div>
+    <div class="parent3">부모입니다.3</div>
     <!-- 인라인스타일 css -->
     <div style="background-color: blue; color: white" id="box1">
       <div style="background-color: font-size: 24pt">
@@ -141,6 +151,10 @@
           </select>
         </div>
       </div>
+      <br />
+      <!-- 제출버튼 -->
+      <input type="submit" value="제출하기" />
+      <button type="submit" class="submit-button">서류제출</button>
     </form>
   </body>
 </html>

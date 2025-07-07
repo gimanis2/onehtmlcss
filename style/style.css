@@ -1,0 +1,58 @@
+@import url("reset.css");
+
+/* 요소 선택자(태그 선택자) */
+form {
+  border: 2px dotted gray;
+}
+
+/* ID 선택자 */
+#box1 {
+  background-color: brown !important;
+}
+
+/* class 선택자 */
+.error {
+  background-color: #ff0000;
+  background-color: rgba(255, 0, 43, 0.3);
+}
+
+/* 자식선택자 */
+.parent {
+  border: 1px solid purple;
+  padding: 10px;
+}
+
+.children {
+  border: 1px solid blue;
+  padding: 10px;
+}
+
+.children_children {
+  border: 1px solid red;
+  background-color: beige;
+}
+
+/* 자손선택자 */
+.parent div {
+  background-color: magenta;
+}
+
+/* 일반 형제 선택자 */
+/*
+.parent ~ div {
+  background-color: darkgoldenrod;
+  border: 4px solid;
+}
+*/
+
+/* 인접 형제 선택자 */
+.parent + div {
+  background-color: darkgoldenrod;
+  border: 4px solid;
+}
+
+/* 가상 선택자(hover) */
+.submit-button:hover {
+  /* 요소에 마우스 올렸을때 스타일 */
+  background-color: hotpink;
+}
