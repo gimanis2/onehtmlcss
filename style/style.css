@@ -56,3 +56,15 @@ form {
   /* 요소에 마우스 올렸을때 스타일 */
   background-color: hotpink;
 }
+
+/* width, height */
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(52, 152, 219, 1);
+}
+
+p {
+  color: pink;
+  font-size: 2em; /* 부모의 폰트 사이즈의 2배로 */
+}
